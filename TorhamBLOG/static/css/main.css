@@ -1,0 +1,31 @@
+.center{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+input , textarea {
+    border: none !important;
+    outline: none !important;
+    border-radius: .7rem !important ;
+    background-color: rgb(236, 236, 236);
+}
+textarea {
+    background-color: rgb(247, 247, 247) !important;
+    padding: 5%;
+    resize: none !important;
+    min-height: 300px;
+}
+.b {
+    font-weight: 500 !important;
+}
+
+.cat {
+    padding: 20px;
+    border-radius: .6rem;
+    box-shadow: 1px 0 5px 4px rgba(0, 0, 0, .05) !important
+}
+
+.f_row {
+    display: flex !important;
+    flex-flow: row wrap !important;
+}
